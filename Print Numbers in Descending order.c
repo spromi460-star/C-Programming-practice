@@ -12,7 +12,7 @@ int main()
     int n;
     printf("Enter a number:");
     scanf("%d",&n);
-    printf("Numbers from 1 to %d:\t",n);
+    printf("Numbers from %d to 1:\t",n);
     PrintDescending(n);
     return 0;
 }
